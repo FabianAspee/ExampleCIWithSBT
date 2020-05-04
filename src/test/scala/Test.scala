@@ -8,4 +8,3 @@ class Test extends FunSuite{
     assert(isGordo("Fabian") == true)
   }
 }
-
