@@ -1,11 +1,11 @@
-package test.scala
+import org.scalatest.funsuite.AnyFunSuite
+import Main._
 
-import org.scalatest._
-import prova.Main._
-
-class Test extends FunSuite{
+/**
+ * Testing Class
+ */
+class Test extends AnyFunSuite { 
   test("Prova"){
     assert(isGordo("Fabian") == true)
   }
 }
-
